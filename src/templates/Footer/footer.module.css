@@ -1,0 +1,13 @@
+.footerLogo{
+	display: flex;
+}
+.footerButtons {
+	display: flex;
+}
+
+.footerButtons ul > li {
+	list-style-type: none;
+	
+	padding: 1rem .5rem;
+	gap: .2rem;
+}
