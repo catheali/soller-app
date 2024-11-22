@@ -9,7 +9,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
+
+#root {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+  }
 
 .logo {	
 	font-family: 'Roboto';
