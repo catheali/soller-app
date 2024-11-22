@@ -1,13 +1,34 @@
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+
 .footerLogo{
 	display: flex;
+	align-items: center;
+	gap: 24px;
 }
+
+.footerSvg {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+  margin-left: .5rem;
+}
+
 .footerButtons {
+	display: flex;
+	align-items: center;
+}
+
+.footerButtons ul {
 	display: flex;
 }
 
 .footerButtons ul > li {
 	list-style-type: none;
-	
 	padding: 1rem .5rem;
 	gap: .2rem;
 }
