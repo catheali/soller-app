@@ -1,0 +1,33 @@
+.buttonQuote {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 24px;
+	width: 306px;
+	height: 64px;
+	border: 2px solid #581C87;
+	border-radius: 100px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	color: #581C87;
+}
+
+.buttonQuote:hover{
+	background: #581C87;
+	border: 2px solid #581C87;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+	color: #FCD34D;
+}
+
+.buttonQuote span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+}
